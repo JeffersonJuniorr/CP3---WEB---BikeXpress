@@ -1,0 +1,13 @@
+#container {
+    text-align: center;
+}
+
+#sobretitulo {
+    margin-block-end: 70px;
+}
+
+#sobretxt {
+    display: flex;
+    margin-block-end: 200px;
+}
+
