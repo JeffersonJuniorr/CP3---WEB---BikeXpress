@@ -6,6 +6,7 @@ import Sobre from './routes/Sobre';
 import Contato from './routes/Contato';
 import Nav from './components/Nav/Nav/Nav';
 import Footer from './components/Nav/Footer/Footer';
+import Error from './routes/Error';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/produtos" element={<Produtos />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer /> {/* Rodapé */}
     </div>
