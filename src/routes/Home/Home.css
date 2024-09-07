@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+.home-container {
+    padding: 0;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .home-header {
+    margin-bottom: 20px;
+  }
+  
+  .home-title {
+    font-size: 55px;
+    color: #333;
+  }
+  
+  .home-content {
+    /* Adicione estilos específicos para o conteúdo da página inicial */
+  }
+
+  .img-bike01{
+    width: 500px;
+  }
+  
