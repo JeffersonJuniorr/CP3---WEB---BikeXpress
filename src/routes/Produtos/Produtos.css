@@ -1,0 +1,110 @@
+/* Contêiner principal que centraliza o conteúdo */
+.product-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha ao topo */
+    min-height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #f5f5f5; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  /* Coluna da esquerda */
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Espaço ao lado da coluna da esquerda */
+    margin-top: 150px;
+  }
+  
+  /* Coluna do meio */
+  .middle-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* Espaço ao lado da coluna do meio */
+  }
+  
+  /* Coluna da direita */
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px; /* Espaço ao lado da coluna da direita */
+    margin-top: 150px;
+  }
+  
+  /* Caixa individual dos produtos */
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; /* Cor de fundo da caixa do produto */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin: 10px; /* Espaçamento entre os produtos */
+    position: relative;
+  }
+  
+  /* Estilo das imagens */
+  .product img {
+    width: 300px; /* Ajuste conforme necessário */
+    height: auto; /* Altura automática */
+  }
+  
+  .arrow-circle {
+    position: absolute;
+    bottom: 10px; /* Ajuste conforme necessário */
+    right: 10px; /* Ajuste conforme necessário */
+    width: 60px; /* Tamanho do círculo */
+    height: 60px; /* Tamanho do círculo */
+    border: 2px solid black; /* Borda preta para o círculo */
+    border-radius: 50%; /* Faz o círculo ser redondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Círculo transparente */
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+
+.arrow-circle:hover {
+    background-color: #f0f0f0; /* Cor de fundo quando em hover */
+    border-color: #333; /* Cor da borda quando em hover */
+    transform: scale(1.1); /* Aumenta o tamanho do círculo em 10% quando em hover */
+}
+  
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid black; /* Cor da seta e tamanho */
+    position: relative;
+    margin-left: 25%;
+  }
+
+  
+/* Cabo da seta */
+.arrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%; /* Posiciona o cabo no lado oposto da seta */
+    width: 40px; /* Largura do cabo */
+    height: 2px; /* Espessura do cabo */
+    background-color: black; /* Cor do cabo */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+  }
+
+.page-title {
+    font-size: 3rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin: 20px 0; /* Espaço acima e abaixo do título */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que o título ocupe toda a largura do contêiner */
+}
