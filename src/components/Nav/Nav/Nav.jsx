@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Nav.css'; // Importa o arquivo CSS
+import './Nav.css';
+import logoX from '/public/assets/logo.png';
 
 const Nav = () => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
+        <img src={logoX} alt="" className='logo'/>
         <li className="nav-item">
           <Link className="nav-link" to="/">Home</Link>
         </li>
@@ -20,7 +22,7 @@ const Nav = () => {
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
 export default Nav;

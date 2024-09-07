@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 .home-container {
     padding: 0;
@@ -6,22 +13,59 @@
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .home-header {
-    margin-bottom: 20px;
-  }
-  
-  .home-title {
-    font-size: 55px;
-    color: #333;
-  }
-  
-  .home-content {
-    /* Adicione estilos específicos para o conteúdo da página inicial */
-  }
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
 
-  .img-bike01{
-    width: 500px;
+.home-header {
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.title {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 120px;
+    color: gray;
+    z-index: 1;
+    top: 140px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.home-content {
+    position: relative;
+    z-index: 2; 
+}
+
+.img-bike02-banner {
+    width: 650px;
+    z-index: 2;
+    transform: translate(0, -20%);
+    transform: rotate(40%, 0);
   }
   
+  @keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.img-bike02-banner {
+    animation: float 3s ease-in-out infinite;
+}

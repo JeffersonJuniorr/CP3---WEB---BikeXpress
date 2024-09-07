@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Home from './routes/Home/Home';
 
@@ -6,6 +6,7 @@ import Sobre from './routes/Sobre';
 import Contato from './routes/Contato';
 import Nav from './components/Nav/Nav/Nav';
 import Footer from './components/Nav/Footer/Footer';
+import Produtos from './routes/Produtos';
 
 const App = () => {
   return (
