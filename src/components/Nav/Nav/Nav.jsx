@@ -21,6 +21,7 @@ const Nav = () => {
           <Link className="nav-link" to="/contato">Contato</Link>
         </li>
       </ul>
+      <hr />
     </nav>
   )
 }

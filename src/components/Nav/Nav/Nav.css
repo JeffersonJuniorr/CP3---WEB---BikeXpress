@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .navbar {
     background-color: transparent;
     padding: 40px;
-    font-family: "Anton", sans-serif;
-    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
+    font-weight: 400;
 }
   
 .nav-list {
@@ -13,8 +14,11 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 155px;
+    position: relative;
+    gap: 60px;
+    left: 650px;
     justify-content: center;
+    margin-top: -25px;
 }
   
 .nav-link {
@@ -24,11 +28,22 @@
 }
   
 .nav-link:hover {
-    color: gray;
+    /* text-decoration: underline; */
+    transition: 0.5s ease;
+    font-weight: 600;
 }
   
 .logo {
     width: 200px;
     position: absolute;
     transform: translate(-375%, -40%);
+    left: 150px;
+    height: 150px;
 }
+
+hr{
+    color: gray;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 15px;
+  }
