@@ -9,7 +9,7 @@ const Home = () => {
         </header>
         <h1 className='title'>
           RIDE FOR <br />
-          YOUR PASSION
+          <span>YOUR PASSION</span>
         </h1>
         <section className="home-content">
         <img src={bikeImage} alt="bicicleta" className="img-bike02-banner" />

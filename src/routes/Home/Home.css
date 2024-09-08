@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -29,8 +30,8 @@
 
 .title {
     position: absolute;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 120px;
     color: gray;
@@ -40,7 +41,12 @@
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
-    text-shadow: rgba(0, 0, 0, 0.397) 0px 1px 5px;
+    text-shadow: black 0px 2px 5px;
+}
+
+span{
+    color: black;
+    text-shadow: gray 0px 3px 5px;
 }
 
 .home-content {
