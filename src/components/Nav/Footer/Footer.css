@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .footer {
     background-color: #333;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
     padding: 40px;
     text-align: center;
     overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .footer-content {
@@ -17,6 +21,7 @@
 .footer p {
     animation: fadeInFromLeft 1s ease-out;
     margin: 0;
+    text-shadow: rgb(0, 0, 0) 0px 2px 2px;
 }
 
 .footer-nav {

@@ -7,8 +7,9 @@ import iconX from '/public/assets/iconx.png';
 const Footer = () => {
   return (
     <footer className="footer">
+      <hr/>
       <div className="footer-content">
-        <p>&copy; 2024 Loja de Bikes. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Bike Press. Todos os direitos reservados.</p>
         <div className="footer-social">
           <a href="#" aria-label="Facebook">
             <img src={iconFacebook} alt="Facebook" />
