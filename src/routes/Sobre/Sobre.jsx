@@ -11,9 +11,8 @@ const Sobre = () => {
           
 
           <div id='sobretxt'>
-            <img src="/public/assets/logo.png" alt="Logo da Empresa" />
           
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam sint tempora ex omnis autem nisi, illum porro mollitia deleniti quod tempore quis commodi. Eveniet repellendus nam quae consequatur minima!
+            <p> <img id='logoparag' src="/public/assets/logo.png" alt="Logo da Empresa" /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam sint tempora ex omnis autem nisi, illum porro mollitia deleniti quod tempore quis commodi. Eveniet repellendus nam quae consequatur minima!
             Totam laborum molestiae obcaecati odit voluptatum optio id similique quidem vel cum. Pariatur, beatae saepe aspernatur sapiente facere exercitationem repellendus provident id harum necessitatibus. Quidem similique numquam dicta atque aut!
             Nobis itaque neque doloremque distinctio mollitia, debitis tenetur porro corrupti ullam laudantium, iste nam in rem, sit molestiae consequuntur ab? Doloribus omnis iure enim! Doloremque provident labore ullam quas hic.
             Deleniti consequatur nostrum veniam voluptatibus suscipit optio nemo ducimus hic placeat, minima, eius eos ab soluta quasi numquam. Esse repudiandae soluta alias eos veniam sed laudantium inventore laborum eligendi sequi.
@@ -41,9 +40,11 @@ const Sobre = () => {
             Unde soluta consequuntur nulla. Minima, sed doloremque, saepe ullam fugit sapiente magni libero explicabo id, vitae nulla ipsum culpa ea quis maiores harum porro! Numquam, maiores eligendi! Odio, sunt eius!
             Voluptate minus ea consectetur eius eum sequi sed vitae recusandae asperiores, sunt quod tempore aperiam architecto quia ex sit consequatur voluptates quidem atque ullam fuga! Cumque blanditiis sit reprehenderit iste.
             Recusandae id debitis, possimus eius quibusdam assumenda? Ratione blanditiis deserunt vel perferendis sequi, eius odit nostrum beatae corrupti praesentium quia nemo. Obcaecati aut iure alias, mollitia dicta labore minus nemo.
-            Provident repudiandae fuga sapiente, cumque minus ea soluta molestiae officia suscipit, neque quas possimus dolor, sequi qui aut. Vero tempore debitis consectetur quae voluptatem possimus repellendus molestiae, nam deserunt illum?</p>
+            Provident repudiandae fuga sapiente, cumque minus ea soluta molestiae officia suscipit, neque quas possimus dolor, sequi qui aut. Vero tempore debitis consectetur quae voluptatem possimus repellendus molestiae, nam deserunt illum? </p>
           </div>
           
+          {/* <img id='logoparag' src="/public/assets/logo.png" alt="Logo da Empresa" /> */}
+
       </div>
 
       

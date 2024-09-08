@@ -15,5 +15,13 @@
 #sobretxt {
     display: flex;
     margin-block-end: 200px;
+    background-color: rgba(128, 128, 128, 0.329);
+    border: 2px solid gray;
+    
 }
 
+#logoparag{
+    margin-bottom: -70px;
+    margin-top: -50px;
+    width: 140px;
+}

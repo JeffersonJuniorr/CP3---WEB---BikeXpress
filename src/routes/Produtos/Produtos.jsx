@@ -11,7 +11,7 @@ function Produtos() {
     return (
         <>
             <div className="product-container">
-            <h1 className="page-title">Bicicletas disponiveís para compra</h1>
+            <h1 className="page-title">Bicicletas disponiveís para compra:</h1>
                 <div className="left-column">
                     <div className="product">
                         <img src="/assets/bike01.png" alt="Bike 01" />
